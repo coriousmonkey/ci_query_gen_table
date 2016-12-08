@@ -16,7 +16,7 @@ Generate table from a complex query with simple config
         
         $myhtmltable= $this->Table_gen->with_paging_query();
         
-        $this->load->view('coba',array( myhtmltable=>$myhtmltable  ) );
+        $this->load->view('coba',array( 'myhtmltable'=>$myhtmltable  ) );
         
         //YOUR VIEW
         //require bootstrap
